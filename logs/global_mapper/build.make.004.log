@@ -1,5 +1,0 @@
-[ 14%] Built target distance_grid
-[ 28%] Built target occupancy_grid
-[ 42%] Built target cost_grid
-[ 57%] Built target global_mapper
-[100%] Built target global_mapper_tests
