@@ -1,0 +1,20 @@
+In file included from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/solverGurobi.cpp:9[m[K:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/include/solverGurobi.hpp:21:10:[m[K [01;31m[Kfatal error: [m[Kfaster_types.hpp: No such file or directory
+   21 | #include [01;31m[K"faster_types.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/trajectory_planner_node.dir/build.make:89: CMakeFiles/trajectory_planner_node.dir/src/solverGurobi.cpp.o] Error 1
+make[2]: *** Waiting for unfinished jobs....
+In file included from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/utils.cpp:9[m[K:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/include/utils.hpp:24:10:[m[K [01;31m[Kfatal error: [m[Kfaster_types.hpp: No such file or directory
+   24 | #include [01;31m[K"faster_types.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/trajectory_planner_node.dir/build.make:76: CMakeFiles/trajectory_planner_node.dir/src/utils.cpp.o] Error 1
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:13:10:[m[K [01;31m[Kfatal error: [m[Kfaster_msgs/Mode.h: No such file or directory
+   13 | #include [01;31m[K<faster_msgs/Mode.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/trajectory_planner_node.dir/build.make:63: CMakeFiles/trajectory_planner_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:366: CMakeFiles/trajectory_planner_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

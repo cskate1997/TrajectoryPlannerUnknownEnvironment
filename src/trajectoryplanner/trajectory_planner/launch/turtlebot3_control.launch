@@ -1,0 +1,20 @@
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="ns" default="turtlebot"/>
+
+  <!-- <rosparam command="load" 
+            file="$(find multi_jackal_tutorials)/config/turtlebot3_control_config.yaml" 
+            ns="$(arg ns)"/> -->
+  <param name="$(arg ns)/odom_frame_id" value="$(arg ns)/odom"/>
+  <param name="$(arg ns)/base_frame_id" value="$(arg ns)/base_link"/>
+
+  <!-- <node name="controller_spawner" pkg="controller_manager" type="spawner"
+      args="turtlebot3_joint_publisher turtlebot3_velocity_controller" ns="$(arg ns)">
+  </node> -->
+
+  <node pkg="interactive_marker_twist_server" type="marker_server" name="twist_marker_server" ns="$(arg ns)">
+    <remap from="twist_marker_server/cmd_vel" to="cmd_vel" />
+    <param name="link_name" value="$(arg ns)/base_link"/>
+  </node> 
+
+</launch>

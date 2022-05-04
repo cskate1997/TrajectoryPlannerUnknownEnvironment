@@ -1,0 +1,21 @@
+Not searching for unused variables given on the command line.
+[31m[1mCMake Error[0m at /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/CMakeLists.txt:14 (find_package):
+  By not providing "FindGUROBI.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "GUROBI", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "GUROBI" with any
+  of the following names:
+
+    GUROBIConfig.cmake
+    gurobi-config.cmake
+
+  Add the installation prefix of "GUROBI" to CMAKE_PREFIX_PATH or set
+  "GUROBI_DIR" to a directory containing one of the above files.  If "GUROBI"
+  provides a separate development package or SDK, be sure it has been
+  installed.
+
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/build/trajectory_planner/CMakeFiles/CMakeOutput.log".
+See also "/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/build/trajectory_planner/CMakeFiles/CMakeError.log".

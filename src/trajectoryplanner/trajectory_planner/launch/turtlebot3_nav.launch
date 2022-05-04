@@ -1,0 +1,11 @@
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x_pos" default="0.0"/>
+  <arg name="y_pos" default="0.0"/>
+  <arg name="z_pos" default="0.0"/>
+  <arg name="ns" default="turtlebot"/>
+
+  <node pkg="tf" type="static_transform_publisher" name="static_map_odom_tf" ns="$(arg ns)"
+        args="$(arg x_pos) $(arg y_pos) $(arg z_pos) 0 0 0 world $(arg ns)/odom 1"/>
+  
+</launch>

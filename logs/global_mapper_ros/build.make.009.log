@@ -1,0 +1,15 @@
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target _global_mapper_ros_generate_messages_check_deps_PlanningGrids
+[  7%] Built target global_mapper_ros_generate_messages_cpp
+[ 15%] Built target global_mapper_ros_generate_messages_nodejs
+[ 38%] Built target global_mapper_ros_generate_messages_lisp
+[ 30%] Built target global_mapper_ros_generate_messages_eus
+[ 53%] Built target global_mapper_ros_generate_messages_py
+[ 53%] Built target global_mapper_ros_generate_messages
+[ 69%] Built target global_mapper_ros
+[ 84%] Built target global_mapper_nodelet
+[100%] Built target global_mapper_node

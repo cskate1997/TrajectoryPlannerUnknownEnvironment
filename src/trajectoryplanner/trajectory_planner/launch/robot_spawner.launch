@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x_pos" default="19"/>
+  <arg name="y_pos" default="29"/>
+  <arg name="z_pos" default="0.0"/>
+  <arg name="ns" default="turtlebot"/>
+  <arg name="world_name"     default="empty.world"/>
+  <arg name="gui"       default="true"/>
+
+  <include file="$(find gazebo_ros)/launch/empty_world.launch">
+    <arg name="use_sim_time" value="true"/>
+    <arg name="gui"          value="$(arg gui)"/>
+    <arg name="world_name"   value="$(find trajectory_planner)/worlds/$(arg world_name)"/>
+  </include>
+
+  <include file="$(find trajectory_planner)/launch/turtlebot3_world.launch">
+    <arg name="ns" value="$(arg ns)"/>
+    <arg name="x_pos" value="$(arg x_pos)"/>
+    <arg name="y_pos" value="$(arg y_pos)"/>
+    <arg name="z_pos" value="$(arg z_pos)"/>
+    <arg name="model" value="waffle"/>
+  </include>
+
+  <node pkg="tf" type="static_transform_publisher" name="camera2body" args="0.069 -0.037 0.107 -1.57 0 -1.57 $(arg ns) $(arg ns)/camera_depth_optical_frame 1" /> 
+  <node pkg="tf" type="static_transform_publisher" name="base2turtlebot" args="0 0 0 0 0 0 $(arg ns)/base_link $(arg ns) 1" />
+
+    <node ns="$(arg ns)" name="ground_truth_to_tf" pkg="message_to_tf" type="message_to_tf" output="screen">
+      <param name="odometry_topic" value="ground_truth/state" />
+      <param name="frame_id" value="/world" />
+      <param name="tf_prefix" value="$(arg ns)" />
+    </node>
+
+</launch>

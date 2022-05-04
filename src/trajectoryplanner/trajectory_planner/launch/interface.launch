@@ -1,0 +1,24 @@
+<launch>
+	<arg name="quad" default="turtlebot"/>
+	<arg name="is_ground_robot" default="true"/>
+	
+	<!-- Start faster commands -->
+	<node ns="$(arg quad)" name="commands" pkg="trajectory_planner" type="commands.py" output="screen">
+		<param name="is_ground_robot" type="bool" value="$(arg is_ground_robot)" />
+	</node>
+
+	<!-- Start Rviz -->
+	<node pkg="rviz" type="rviz" name="rviz" args="-d $(find trajectory_planner)/rviz_cfgs/rviz.rviz"/>
+
+	<node pkg="rostopic" type="rostopic" name="rostopic" args="pub /turtlebot/trajectory_planner/mode custom_msgs/Mode &quot;{header:{
+  seq: 0,
+  stamp:{
+    secs: 0,
+    nsecs: 0},
+  frame_id: ''},
+mode: 1}&quot;
+"/>
+
+
+
+</launch>

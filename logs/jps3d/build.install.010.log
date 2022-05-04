@@ -1,0 +1,28 @@
+[ 40%] Built target create_map
+[100%] Built target jps_lib
+[36mInstall the project...[0m
+-- Install configuration: "RelWithDebInfo"
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/_setup_util.py
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/env.sh
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/setup.bash
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/local_setup.bash
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/setup.sh
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/local_setup.sh
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/setup.zsh
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/local_setup.zsh
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/.rosinstall
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/share/jps3d/cmake/jps3dConfig.cmake
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/share/jps3d/cmake/jps3dConfigVersion.cmake
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/lib/libjps_lib.so
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_basis
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_basis/data_utils.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_basis/data_type.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_planner
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_planner/distance_map_planner
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_planner/distance_map_planner/distance_map_planner.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_planner/distance_map_planner/graph_search.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_planner/jps_planner
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_planner/jps_planner/graph_search.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_planner/jps_planner/jps_planner.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_collision
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/jps_collision/map_util.h

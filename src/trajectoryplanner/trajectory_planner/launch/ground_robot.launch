@@ -1,0 +1,17 @@
+<launch>
+
+	<arg name="name" default="turtlebot"/>
+	<arg name="goal_topic" default="goal"/>
+
+	 <include file="$(find trajectory_planner)/launch/robot_spawner.launch">
+	      <!-- <arg name="world_name" value="density01seed0.world"/> -->
+	      <arg name="world_name" value="office.world"/>
+	  </include> 
+
+<node ns="$(arg name)" pkg="trajectory_planner" 
+        type="goal_odom_to_cmd_vel_state.py" 
+        name="goal_odom_to_cmd_vel_state" 
+        output="screen"
+        args="0 0 0 0 0 0 $(arg name)/camera_link $(arg name)/camera 100" />
+
+</launch>

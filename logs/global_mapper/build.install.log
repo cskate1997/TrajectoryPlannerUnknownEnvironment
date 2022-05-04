@@ -1,0 +1,26 @@
+[ 14%] Built target distance_grid
+[ 28%] Built target occupancy_grid
+[ 42%] Built target cost_grid
+[ 57%] Built target global_mapper
+[100%] Built target global_mapper_tests
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/lib/cmake/global_mapper/global_mapperConfig.cmake
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/lib/cmake/global_mapper/global_mapperConfigVersion.cmake
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/lib/libglobal_mapper.so
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/global_mapper
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/global_mapper/params.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/global_mapper/planning_grids.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/global_mapper/global_mapper.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/lib/liboccupancy_grid.so
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/occupancy_grid
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/occupancy_grid/occupancy_grid.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/lib/libdistance_grid.so
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/distance_grid
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/distance_grid/distance_grid.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/lib/libcost_grid.so
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/cost_grid
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/cost_grid/cost_grid.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/voxel_grid
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/include/voxel_grid/voxel_grid.h
+-- Up-to-date: /home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/devel/bin/global_mapper_tests

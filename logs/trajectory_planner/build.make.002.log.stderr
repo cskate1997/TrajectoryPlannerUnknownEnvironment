@@ -1,0 +1,159 @@
+In file included from [01m[K/usr/local/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/include/utils.hpp:12[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/utils.cpp:9[m[K:
+[01m[K/usr/local/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/usr/local/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/utils.cpp:[m[K In function ‘[01m[Kstd_msgs::ColorRGBA color(int)[m[K’:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/utils.cpp:214:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+  214 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1155:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kfaster_msgs[m[K’ does not name a type
+ 1155 |   void modeCB(const [01;31m[Kfaster_msgs[m[K::Mode& msg)
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1155:38:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K&[m[K’ token
+ 1155 |   void modeCB(const faster_msgs::Mode[01;31m[K&[m[K msg)
+      |                                      [01;31m[K^[m[K
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1155:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K&[m[K’ token
+ 1155 |   void modeCB[34m[K([m[Kconst faster_msgs::Mode[01;31m[K&[m[K msg)
+      |              [34m[K~[m[K                       [01;31m[K^[m[K
+      |                                      [32m[K)[m[K
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1155:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+ 1155 |   void modeCB(const faster_msgs::Mode[01;31m[K&[m[K msg)
+      |                                      [01;31m[K^[m[K
+      |                                       [32m[K;[m[K
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1155:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ does not name a type
+ 1155 |   void modeCB(const faster_msgs::Mode& [01;31m[Kmsg[m[K)
+      |                                        [01;31m[K^~~[m[K
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:[m[K In constructor ‘[01m[KLocal_Planner_Ros::Local_Planner_Ros(ros::NodeHandle)[m[K’:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe(const char [5], int, void (Local_Planner_Ros::*)(...) &, Local_Planner_Ros*)[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;31m[K)[m[K;
+      |                                                                          [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)[m[K’
+  402 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::)(M)[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::)(...) &[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)[m[K’
+  413 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(M) const[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::)(...) &[m[K’ have incompatible cv-qualifiers
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), T*, const ros::TransportHints&)[m[K’
+  465 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::)(...) &[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, T*, const ros::TransportHints&)[m[K’
+  475 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::)(...) &[m[K’ have incompatible cv-qualifiers
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  529 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M),
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::)(M)[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::)(...) &[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  540 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(M) const[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::)(...) &[m[K’ have incompatible cv-qualifiers
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&), const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  594 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (T::)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::)(...) &[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const M>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)[m[K’
+  605 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(const boost::shared_ptr<const M>&) const[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::)(...) &[m[K’ have incompatible cv-qualifiers
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)[m[K’
+  656 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(M)[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::*)(...) &[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const M>&), const ros::TransportHints&)[m[K’
+  704 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(const boost::shared_ptr<const M>&)[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::*)(...) &[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const M>&)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  750 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<void(const boost::shared_ptr<const M>&)>[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::*)(...) &[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)[m[K’
+  799 |   Subscriber [01;36m[Ksubscribe[m[K(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:1056:74:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<void(C)>[m[K’ and ‘[01m[Kvoid (Local_Planner_Ros::*)(...) &[m[K’
+ 1056 |     sub_mode_ = nh_.subscribe("mode", 1, &Local_Planner_Ros::modeCB, this[01;36m[K)[m[K;
+      |                                                                          [01;36m[K^[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/trajectory_planner/src/main.cpp:5[m[K:
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(ros::SubscribeOptions&)[m[K’
+  836 |   Subscriber [01;36m[Ksubscribe[m[K(SubscribeOptions& ops);
+      |              [01;36m[K^~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+make[2]: *** [CMakeFiles/trajectory_planner_node.dir/build.make:63: CMakeFiles/trajectory_planner_node.dir/src/main.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:366: CMakeFiles/trajectory_planner_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

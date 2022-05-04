@@ -1,0 +1,34 @@
+<launch>
+  <arg name="model" default="$(env TURTLEBOT3_MODEL)" doc="model type [burger, waffle, waffle_pi]"/>
+  <arg name="x_pos" default="0.0"/>
+  <arg name="y_pos" default="0.0"/>
+  <arg name="z_pos" default="0.0"/>
+  <arg name="ns" default="turtlebot"/>
+
+
+  <include file="$(find trajectory_planner)/launch/turtlebot3_control.launch">
+    <arg name="ns" value="$(arg ns)"/>
+    <arg name="model" value="$(arg model)"/>
+  </include>
+
+  <include file="$(find trajectory_planner)/launch/turtlebot3_description.launch">
+    <arg name="ns" value="$(arg ns)"/>
+    <arg name="x_pos" value="$(arg x_pos)"/>
+    <arg name="y_pos" value="$(arg y_pos)"/>
+    <arg name="z_pos" value="$(arg z_pos)"/>
+    <arg name="model" value="$(arg model)"/>
+  </include>
+
+  <include file="$(find trajectory_planner)/launch/turtlebot3_nav.launch">
+  <arg name="model" value="$(arg model)"/>
+    <arg name="ns"    value="$(arg ns)"/>
+    <arg name="x_pos"     value="$(arg x_pos)"/>
+    <arg name="y_pos"     value="$(arg y_pos)"/>
+    <arg name="z_pos"     value="$(arg z_pos)"/>
+  </include>
+
+  <node name="spawn_create_model" pkg="gazebo_ros" type="spawn_model" ns="$(arg ns)"
+    args="-x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -R 0 -P 0 -Y 0
+    -urdf -param /$(arg ns)/robot_description -model $(arg ns)"/>
+  
+</launch>

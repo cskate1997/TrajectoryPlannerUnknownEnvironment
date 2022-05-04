@@ -1,0 +1,34 @@
+In file included from [01m[K/usr/local/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/opt/ros/noetic/include/message_filters/subscriber.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/message_filter_display.h:33[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/libraries/DecompROS/decomp_ros_utils/src/polyhedron_array_display.h:2[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/libraries/DecompROS/decomp_ros_utils/src/polyhedron_array_display.cpp:1[m[K:
+[01m[K/usr/local/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf2_ros/buffer.h:38[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/tf.h:49[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf/transform_listener.h:38[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/src/trajectoryplanner/libraries/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.cpp:1[m[K:
+[01m[K/usr/local/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/local/include/boost/bind.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/opt/ros/noetic/include/tf2_ros/transform_listener.h:37[m[K,
+                 from [01m[K/opt/ros/noetic/include/rviz/visualization_manager.h:37[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/../../../../src/trajectoryplanner/libraries/DecompROS/decomp_ros_utils/src/ellipsoid_array_display.h:3[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/build/decomp_ros_utils/decomp_rviz_plugins_autogen/UVLADIE3JM/moc_ellipsoid_array_display.cpp:9[m[K,
+                 from [01m[K/home/chinmay/motion_planning/TrajectoryPlannerUnknownEnvironment/build/decomp_ros_utils/decomp_rviz_plugins_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/usr/local/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
