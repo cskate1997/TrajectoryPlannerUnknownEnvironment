@@ -19,4 +19,4 @@ roslaunch trajectroy_planner planner.launch
 ```
 To give the goal position to the robot, open the rviz window, press G and then click anywhere on the grid. This point will be taken as the goal configuration and thereafter planner starts planning and turtlebot makes its way to this point.
 
-![Screenshot from 2023-11-07 22-21-24](https://github.com/cskate1997/TrajectoryPlannerUnknownEnvironment/assets/94412831/f1a18a99-16b0-4906-9e0e-c662b58bf4f1)
+
